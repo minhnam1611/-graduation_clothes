@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<script src="<c:url value='/js/client/homeAjax.js'/>" ></script>
+<%@ taglib  uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%--<script src="<c:url value='/js/client/homeAjax.js'/>" ></script>--%>
+<script src="<c:url value="/js/client/homeAjax.js"/>" ></script>
 		   <!--start-image-slider---->
 					<div class="wrap">
 					<div class="image-slider">
@@ -36,7 +37,7 @@
 		    	
 		    <div class="content-grids">
 		    	<h4>DANH SÁCH ĐIỆN THOẠI MỚI NHẤT</h4>
-		    
+
 			</div>
 			
 			
